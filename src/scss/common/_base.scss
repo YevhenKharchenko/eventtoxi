@@ -1,0 +1,90 @@
+:root {
+  font-family: 'Teachers', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 160px;
+    padding-left: 160px;
+  }
+}
+
+.section {
+  scroll-margin-top: 64px;
+
+  @include media(desktop) {
+    scroll-margin-top: 80px;
+  }
+}
+
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.section-title-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #9e54d7;
+}
+
+.section-title {
+  font-family: 'Teachers', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3c234f;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.section-subtitle {
+  font-family: 'Teachers', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #9e54d7;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
