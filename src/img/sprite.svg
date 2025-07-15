@@ -19,5 +19,11 @@
       <path fill="#fcc000" d="m13.334 11.334 8 4.667-8 4.667v-9.333z" style="fill:var(--color2, #fcc000)"/>
       <path fill="none" stroke="#fcc000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M16 6.667c12 0 12 0 12 9.333s0 9.333-12 9.333-12 0-12-9.333 0-9.333 12-9.333z" style="stroke:var(--color2, #fcc000)"/>
     </symbol>
+    <symbol id="icon-close" viewBox="0 0 33 32">
+      <path stroke-linecap="round" stroke-width="2.909" d="M30.833 30.105 2.622 1.894M2.622 30.105 30.833 1.894"/>
+    </symbol>
+    <symbol id="icon-down-arrow" viewBox="0 0 32 32">
+      <path fill="none" stroke="#3c234f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M9.333 13.333 16 20l6.667-6.667" style="stroke:var(--color1, #3c234f)"/>
+    </symbol>
   </defs>
 </svg>

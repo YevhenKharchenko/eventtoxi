@@ -1,11 +1,6 @@
 import Swiper from 'swiper';
 import 'swiper/css/bundle';
 
-const testimonialsLeftArrow = document.getElementById('testimonialsLeftArrow');
-const testimonialsRightArrow = document.getElementById(
-  'testimonialsRightArrow'
-);
-
 let testimonialsSwiper;
 
 testimonialsSwiper = new Swiper('.testimonials-swiper-container', {
@@ -14,7 +9,7 @@ testimonialsSwiper = new Swiper('.testimonials-swiper-container', {
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 32,
+  spaceBetween: 16,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
@@ -24,7 +19,10 @@ testimonialsSwiper = new Swiper('.testimonials-swiper-container', {
   },
   breakpoints: {
     1440: {
-      slidesPerView: 1,
+      slidesPerView: 4,
+      spaceBetween: 32,
+      grabCursor: false,
+      allowTouchMove: false,
     },
   },
   on: {
@@ -33,23 +31,5 @@ testimonialsSwiper = new Swiper('.testimonials-swiper-container', {
         .querySelector('.testimonials-swiper-container')
         .classList.add('show');
     },
-    slideChange: function () {
-      updateTestimonialsArrows(this);
-    },
   },
-});
-
-updateTestimonialsArrows(testimonialsSwiper);
-
-function updateTestimonialsArrows(swiper) {
-  testimonialsLeftArrow.disabled = swiper.isBeginning;
-  testimonialsRightArrow.disabled = swiper.isEnd;
-}
-
-testimonialsLeftArrow.addEventListener('click', () => {
-  testimonialsSwiper.slidePrev();
-});
-
-testimonialsRightArrow.addEventListener('click', () => {
-  testimonialsSwiper.slideNext();
 });
