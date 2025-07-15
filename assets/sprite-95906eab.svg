@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+   <symbol id="icon-switch-arrows" viewBox="0 0 40 40">
+      <rect width="40" height="40" rx="4" fill="#F0F0F0" />
+      <path d="M27.7422 13.1875L32.2842 17.624L25.375 24.375H19.2578L25.8008 17.9824L26.167 17.625L25.8008 17.2676L21.625 13.1875H27.7422Z" stroke="#9E54D7" />
+      <path d="M12.2578 26.8125L7.71582 22.376L14.625 15.625H20.7422L14.1992 22.0176L13.833 22.375L14.1992 22.7324L18.375 26.8125H12.2578Z" stroke="#9E54D7" />
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 32 32">
+      <path fill="#fcc000" d="M10.4 2.667h11.2a7.739 7.739 0 0 1 7.733 7.733v11.2a7.733 7.733 0 0 1-7.733 7.733H10.4A7.739 7.739 0 0 1 2.667 21.6V10.4A7.733 7.733 0 0 1 10.4 2.667zm-.267 2.666a4.8 4.8 0 0 0-4.8 4.8v11.733c0 2.653 2.147 4.8 4.8 4.8h11.733a4.8 4.8 0 0 0 4.8-4.8V10.133c0-2.653-2.147-4.8-4.8-4.8H10.133zm12.867 2a1.663 1.663 0 0 1 1.179 2.845 1.665 1.665 0 0 1-2.357 0A1.664 1.664 0 0 1 23 7.334zm-7 2a6.67 6.67 0 0 1 4.714 11.381A6.668 6.668 0 1 1 16 9.333zM16 12a4.003 4.003 0 0 0-2.828 6.829A3.999 3.999 0 0 0 20.001 16 4.004 4.004 0 0 0 16 12z" style="fill:var(--color2, #fcc000)"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#3c234f" stroke-linecap="round" stroke-width="1.454" d="M24.727 21.818H7.272M24.727 16H7.272M24.727 10.182H7.272" style="stroke:var(--color3, #3c234f)"/>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 32 32">
+      <path fill="none" stroke="#fcc000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.333 16c0-5.971 0-8.957 1.855-10.812s4.84-1.855 10.813-1.855c5.971 0 8.956 0 10.811 1.855s1.855 4.84 1.855 10.812c0 5.971 0 8.957-1.855 10.812S21.972 28.667 16 28.667c-5.971 0-8.956 0-10.812-1.855C3.335 24.956 3.333 21.972 3.333 16z" style="stroke:var(--color2, #fcc000)"/>
+      <path fill="none" stroke="#fcc000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9.334 22.667 5.592-5.591m-.001 0L9.333 9.333h3.703l4.04 5.592 5.591-5.592m-7.742 7.743 4.037 5.591h3.704l-5.591-7.743" style="stroke:var(--color2, #fcc000)"/>
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 32 32">
+      <path fill="#fcc000" d="m13.334 11.334 8 4.667-8 4.667v-9.333z" style="fill:var(--color2, #fcc000)"/>
+      <path fill="none" stroke="#fcc000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M16 6.667c12 0 12 0 12 9.333s0 9.333-12 9.333-12 0-12-9.333 0-9.333 12-9.333z" style="stroke:var(--color2, #fcc000)"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 33 32">
+      <path stroke-linecap="round" stroke-width="2.909" d="M30.833 30.105 2.622 1.894M2.622 30.105 30.833 1.894"/>
+    </symbol>
+    <symbol id="icon-down-arrow" viewBox="0 0 32 32">
+      <path fill="none" stroke="#3c234f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M9.333 13.333 16 20l6.667-6.667" style="stroke:var(--color1, #3c234f)"/>
+    </symbol>
+  </defs>
+</svg>
