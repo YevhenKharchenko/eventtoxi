@@ -58,6 +58,11 @@
   font-size: 20px;
   line-height: 1.5;
   color: #3c234f;
+  min-width: 57px;
+  min-height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonials-name-wrapper {
